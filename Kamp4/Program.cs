@@ -14,7 +14,7 @@ namespace Kamp4
             urun1.Fiyat = 15;
             urun1.aciklama = "Amasya elması";
 
-            Product urun2 = new Product { };
+            Product urun2 = new Product ();
             urun2.Adi = "Karpuz";
             urun2.Fiyat = 20;
             urun2.aciklama = "Diyarbakır karpuzu";
