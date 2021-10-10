@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{964787C1-C7E2-4457-B614-3F4C3AB05CB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{DF8BC1B3-480F-45CD-B6D7-4D2CC03C3863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{DF8BC1B3-480F-45CD-B6D7-4D2CC03C3863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{F42D5E86-6705-4B8B-B149-B5AC84DA79A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{FD852E50-D5DD-42B8-919C-FC685DAE1E16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{DF8BC1B3-480F-45CD-B6D7-4D2CC03C3863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8BC1B3-480F-45CD-B6D7-4D2CC03C3863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8BC1B3-480F-45CD-B6D7-4D2CC03C3863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42D5E86-6705-4B8B-B149-B5AC84DA79A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42D5E86-6705-4B8B-B149-B5AC84DA79A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42D5E86-6705-4B8B-B149-B5AC84DA79A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42D5E86-6705-4B8B-B149-B5AC84DA79A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD852E50-D5DD-42B8-919C-FC685DAE1E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD852E50-D5DD-42B8-919C-FC685DAE1E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD852E50-D5DD-42B8-919C-FC685DAE1E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD852E50-D5DD-42B8-919C-FC685DAE1E16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
