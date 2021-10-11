@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameProject
 {
-    public class Campaign : ICampaign
+    interface ICampaign
     {
         public int CampaignPercent { get; set; }
         public string CampaignName { get; set; }

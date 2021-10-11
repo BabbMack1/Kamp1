@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameProject
 {
-   public class Customer: ICustomer
+    interface ICustomer
     {
         public string CitizenshipNumber { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public DateTime DateOfBirth { get; set; }
-
     }
 }

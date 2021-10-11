@@ -19,6 +19,10 @@ namespace GameProject
             salesManager.Selling(customer, new Campaign {CampaignName="Christmas"});
 
             campaignManager.UpdateCampaign(new Campaign {CampaignName="Black Friday" });
+            IGame game1=new Game() {GameName="CSGO",ReleaseDate=new DateTime(2005,02,01) };
+            GameManager gameManager = new GameManager();
+            gameManager.AddGame(game1);
+            gameManager.ChangePrice(game1);
 
 
         }
