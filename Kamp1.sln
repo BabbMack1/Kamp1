@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerBoardDemo", "CheckerBoardDemo\CheckerBoardDemo.csproj", "{B3DD62CF-A2E5-4CCF-9D08-4F4D623F7170}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject", "GameProject\GameProject.csproj", "{0AECEDB4-239E-4375-BA38-B30254557BDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{B3DD62CF-A2E5-4CCF-9D08-4F4D623F7170}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3DD62CF-A2E5-4CCF-9D08-4F4D623F7170}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3DD62CF-A2E5-4CCF-9D08-4F4D623F7170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AECEDB4-239E-4375-BA38-B30254557BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AECEDB4-239E-4375-BA38-B30254557BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AECEDB4-239E-4375-BA38-B30254557BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AECEDB4-239E-4375-BA38-B30254557BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

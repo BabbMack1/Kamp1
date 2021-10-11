@@ -27,12 +27,12 @@ namespace CheckerBoardDemo
                 for (int j = 0; j <= buttons.GetUpperBound(1); j++)// Burada da for döngüsünü 1. indeksine göre sınırlandırdık.
                 {
                     buttons[i,j] = new Button();
-                    buttons[i, j].Width = 50;
+                    buttons[i, j].Width = 50;   ///Genişlik ve uzunluk ayarlandı.
                     buttons[i, j].Height = 50;
                     buttons[i, j].Left = left;  //Burada butonun sol taraf başlangıç noktasını belirledik.
                     left += 50; //Her seferinde 50 sola kaydırdık.
                     buttons[i, j].Top = top;  ///üst kısma olan uzaklıgını belirledik.
-                    this.Controls.Add(buttons[i, j]);
+                    this.Controls.Add(buttons[i, j]); //Forma eklediğimiz kısım.
                     if ((i+j)%2==0)
                     {
                         buttons[i, j].BackColor = Color.Black;
